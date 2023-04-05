@@ -1,0 +1,72 @@
+.footer {
+  padding: 98px 0px;
+
+  &__divider {
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(93.32deg, #dd2f5d 0%, #5824b0 100%);
+  }
+
+  &__wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 154px;
+      height: 154px;
+    }
+  }
+  &__text {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 109.1%;
+    color: #000000;
+  }
+
+  &__links {
+    display: flex;
+  }
+
+  &__title {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 109.1%;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+
+  &__share {
+    padding-left: 0px;
+    list-style-type: none;
+    margin-right: 50px;
+    li {
+      margin-bottom: 15px;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      color: #000000;
+    }
+  }
+
+  &__contacts {
+    padding-left: 0px;
+    list-style-type: none;
+    li {
+      margin-bottom: 15px;
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      color: #000000;
+    }
+  }
+}

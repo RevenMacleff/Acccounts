@@ -1,0 +1,62 @@
+/* 992 */
+/* Стили работают только если монитор меньше 1200 пикселей */
+@media (max-width: 1200px) {
+  .header {
+    font-size: 20px;
+  }
+  .header__bg {
+    z-index: -1;
+    width: 80%;
+    right: -310px;
+  }
+}
+
+/* 768 */
+@media (max-width: 991px) {
+  .why__img {
+    width: 80%;
+  }
+  .connect__block {
+    width: 30%;
+  }
+  .connect__descr {
+    height: 98px;
+  }
+  .footer__logo {
+    flex-direction: column;
+  }
+  .footer__share {
+    margin-right: 20px;
+  }
+  .how__wrap {
+    max-width: 528px;
+  }
+  .header__nav ul li {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  .header__button {
+    width: 230px;
+    font-size: 18px;
+  }
+  .header__logo {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+  .header__bg {
+    z-index: -1;
+    width: 60%;
+    right: -80px;
+  }
+  .accounts__block {
+    flex-direction: column;
+  }
+}
+
+/* 576 */
+@media (max-width: 767px) {
+}
+
+/* 320px */
+@media (max-width: 575px) {
+}

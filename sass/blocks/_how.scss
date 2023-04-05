@@ -1,0 +1,52 @@
+.how {
+  &__wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &__block {
+    display: flex;
+    position: relative;
+    padding: 48px 62px;
+    width: 497px;
+    height: 177px;
+    margin-bottom: 80px;
+    background: linear-gradient(277.23deg, #2d4df6 0%, #7759ff 100%);
+    opacity: 0.8;
+    box-shadow: 0px 15.3361px 23.0041px rgba(94, 104, 191, 0.3);
+    border-radius: 20px;
+
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 109.1%;
+    /* or 26px */
+
+    color: #ffffff;
+    &_two {
+      align-self: flex-end;
+    }
+  }
+  &__fingers {
+    position: absolute;
+    left: -91px;
+    bottom: -71px;
+    &_right {
+      left: 375px;
+      bottom: -71px;
+    }
+  }
+  &__numbers {
+    position: absolute;
+    right: 26px;
+    top: 120px;
+    &_left {
+      right: 440px;
+      top: 120px;
+    }
+  }
+}

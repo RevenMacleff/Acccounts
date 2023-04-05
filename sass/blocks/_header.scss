@@ -1,0 +1,108 @@
+.header {
+  /*   min-height: 1070px; */
+  padding-top: 30px;
+  padding-bottom: 323px;
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 272px;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 109.1%;
+    /* or 26px */
+    margin-right: 58px;
+    color: #000000;
+  }
+
+  &__img {
+  }
+
+  &__nav {
+    ul {
+      padding-left: 0px;
+      display: flex;
+      list-style: none;
+      align-items: center;
+      margin-bottom: 0px;
+      li {
+        margin-right: 55px;
+        font-family: "Jost";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 109.1%;
+        /* or 26px */
+
+        color: #000000;
+      }
+    }
+  }
+
+  &__item {
+  }
+
+  &__button {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 109.1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*     padding: 20px 52px; */
+    color: #000000;
+    width: 280px;
+    height: 66px;
+    border-radius: 20px;
+    /*     position: relative; */
+    border: solid 3px rgba(0, 0, 0, 0);
+    background-image: linear-gradient(93.32deg, #dd2f5d 0%, #5824b0 100%);
+    background-origin: border-box;
+    /*     background-clip: content-box, border-box; */
+    -webkit-box-shadow: 2px 1000px 1px #fbfbff inset;
+  }
+
+  &__mid {
+    position: relative;
+    padding-left: 20px;
+    min-height: 258px;
+    max-width: 650px;
+  }
+  &__title {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 47px;
+    line-height: 52px;
+    color: #000000;
+    margin-bottom: 30px;
+  }
+  &__subtitle {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    color: #000000;
+  }
+  &__bg {
+    position: absolute;
+    right: -588px;
+    bottom: -140px;
+  }
+  &__bg-down {
+    position: absolute;
+    right: 90px;
+    top: 420px;
+  }
+}
