@@ -1,3 +1,14 @@
+.container {
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 150px;
+}
+body {
+  background: #fbfbff;
+}
+
 @import "base/variables";
 @import "base/mixins";
 @import "blocks/buttons";
@@ -11,14 +22,3 @@
 @import "blocks/connect";
 @import "blocks/footer";
 @import "./media";
-
-.container {
-  margin: 0 auto;
-}
-
-section {
-  margin-bottom: 150px;
-}
-body {
-  background: #fbfbff;
-}

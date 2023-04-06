@@ -59,4 +59,244 @@
 
 /* 320px */
 @media (max-width: 575px) {
+  section {
+    margin-bottom: 80px;
+  }
+  .button {
+    margin: 0 auto;
+    width: 182px;
+    height: 43px;
+    background: linear-gradient(93.32deg, #dd2f5d 0%, #5824b0 100%);
+    border-radius: 15px;
+    font-weight: 700;
+    font-size: 16px;
+
+    color: #ffffff;
+    a {
+      color: #ffffff;
+    }
+    &_header {
+      display: inline;
+      margin: auto;
+    }
+  }
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .connect {
+    &__block {
+      width: auto;
+    }
+    &__wrap {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 0px;
+    }
+    &__title {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &__divider {
+      width: 80%;
+    }
+    &__descr {
+      font-weight: 500;
+      font-size: 14px;
+      text-align: center;
+      width: 300%;
+    }
+    &__content {
+      padding: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100px;
+      height: 100px;
+      margin-bottom: 30px;
+      img {
+        width: 58px;
+        height: 67px;
+      }
+    }
+  }
+  .divider {
+    margin-bottom: 80px;
+
+    &__elem {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 109.1%;
+      max-width: 74px;
+
+      color: #ffffff;
+    }
+  }
+  .why {
+    &__subtitle {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &__img {
+      top: 180px;
+      left: -114px;
+    }
+    &__content {
+      padding: 10px;
+      width: 100%;
+    }
+    &__text {
+      font-weight: 400;
+      font-size: 14px;
+    }
+    &__divider {
+      width: 60%;
+    }
+  }
+  .accounts {
+    &__check {
+      margin-right: 17px;
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+    &__block {
+      padding: 30px 17px;
+      height: auto;
+    }
+    &__left {
+      margin-bottom: 24px;
+    }
+    &__descr {
+      font-weight: 400;
+      font-size: 16px;
+    }
+    &__right {
+      position: relative;
+      width: 80%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      &::after {
+        display: none;
+        /*         z-index: 2;
+        top: 316px;
+        left: -10px;
+        height: 3px;
+        position: absolute;
+        display: flex; */
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .how {
+    &__wrap {
+      max-width: 260px;
+    }
+    &__block {
+      padding: 21px 25px;
+      width: 239px;
+      height: 95px;
+      font-weight: 400;
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    &__numbers {
+      max-width: 17px;
+      max-height: 29px;
+      right: 16px;
+      top: 63px;
+      &_left {
+        right: 206px;
+        top: 75px;
+      }
+    }
+    &__fingers {
+      left: -37px;
+      bottom: -24px;
+      width: 30%;
+      &_right {
+        left: 187px;
+        bottom: -34px;
+      }
+    }
+  }
+  .archive {
+    &__icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        width: 41px;
+        height: 41px;
+      }
+    }
+    &__descr {
+      font-weight: 500;
+      font-size: 16px;
+    }
+    &__block {
+      padding: 10px;
+      margin-bottom: 60px;
+      &::after {
+        height: 3px;
+      }
+    }
+  }
+
+  .footer {
+    padding: 30px 0px;
+
+    &__wrap {
+      flex-direction: column;
+    }
+
+    &__logo {
+      flex-direction: initial;
+      margin-bottom: 30px;
+      img {
+        width: 66px;
+        height: 66px;
+      }
+    }
+    &__text {
+      font-weight: 600;
+      font-size: 16px;
+    }
+
+    &__title {
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    &__share {
+      margin-right: 18px;
+      li {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+      img {
+        width: 10px;
+        height: 10px;
+      }
+    }
+
+    &__contacts {
+      li {
+        margin-bottom: 10px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+  }
 }
