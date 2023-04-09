@@ -1,19 +1,4 @@
-/* const img = document.querySelectorAll(".fullscreen-img");
-const overlay = document.createElement("div");
-overlay.classList.add("overlay");
-document.body.appendChild(overlay);
-
-img.forEach((image) => {
-  image.addEventListener("click", () => {
-    overlay.style.display = "block";
-    overlay.innerHTML = `<img src="${img.src}">`;
-  });
-});
-
-overlay.addEventListener("click", () => {
-  overlay.style.display = "none";
-});
- */ const imgList = document.querySelectorAll(".fullscreen-img");
+const imgList = document.querySelectorAll(".fullscreen-img");
 const overlay = document.createElement("div");
 overlay.classList.add("overlay");
 document.body.appendChild(overlay);
@@ -31,4 +16,11 @@ imgList.forEach((img) => {
 overlay.addEventListener("click", () => {
   overlay.style.display = "none";
   overlay.innerHTML = "";
+});
+
+const burgerMenu = document.getElementById("burger-menu");
+const overlay2 = document.getElementById("menu");
+burgerMenu.addEventListener("click", function () {
+  this.classList.toggle("close");
+  overlay2.classList.toggle("overlay2");
 });
