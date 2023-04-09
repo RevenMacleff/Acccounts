@@ -62,6 +62,10 @@
   #burger-menu {
     display: flex;
   }
+  #burger-menu.close {
+    margin-left: 0px;
+    margin-bottom: 50px;
+  }
   .button {
     &_header {
       margin: 0 auto;
