@@ -1,28 +1,34 @@
-const imgPopup = document.createElement("div"),
-  workSection = document.querySelector(".works"),
-  bigImage = document.createElement("img");
+/* const img = document.querySelectorAll(".fullscreen-img");
+const overlay = document.createElement("div");
+overlay.classList.add("overlay");
+document.body.appendChild(overlay);
 
-imgPopup.classList.add("popup");
-workSection.appendChild(imgPopup);
+img.forEach((image) => {
+  image.addEventListener("click", () => {
+    overlay.style.display = "block";
+    overlay.innerHTML = `<img src="${img.src}">`;
+  });
+});
 
-imgPopup.style.justifyContent = "center";
-imgPopup.style.alignItems = "center";
-imgPopup.style.display = "none";
+overlay.addEventListener("click", () => {
+  overlay.style.display = "none";
+});
+ */ const imgList = document.querySelectorAll(".fullscreen-img");
+const overlay = document.createElement("div");
+overlay.classList.add("overlay");
+document.body.appendChild(overlay);
 
-imgPopup.appendChild(bigImage);
+imgList.forEach((img) => {
+  img.addEventListener("click", () => {
+    const imgSrc = img.getAttribute("src");
+    const overlayImage = document.createElement("img");
+    overlayImage.setAttribute("src", imgSrc);
+    overlay.appendChild(overlayImage);
+    overlay.style.display = "flex";
+  });
+});
 
-workSection.addEventListener("mouseover", (e) => {
-  e.preventDefault();
-
-  let target = e.target;
-
-  if (target && target.classList.contains("preview")) {
-    imgPopup.style.display = "flex";
-    const path = target.parentNode.getAttribute("href");
-    bigImage.setAttribute("src", path);
-  }
-
-  if (target && target.matches("div.popup")) {
-    imgPopup.style.display = "none";
-  }
+overlay.addEventListener("click", () => {
+  overlay.style.display = "none";
+  overlay.innerHTML = "";
 });
