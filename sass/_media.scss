@@ -365,6 +365,20 @@
 
 /* 320px */
 @media (max-width: 575px) {
+  .what {
+    &__img {
+      img {
+        width: 41px;
+        height: 41px;
+      }
+    }
+    &__descr {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+    }
+  }
   #burger-menu {
     display: flex;
   }
@@ -388,6 +402,21 @@
         width: 80px;
         height: 80px;
       }
+    }
+    &__subtitle {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    &__span {
+      font-family: "Jost";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 20px;
+      margin-bottom: 30px;
+      color: #000;
     }
     &__title {
       text-align: center;
