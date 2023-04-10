@@ -59,7 +59,7 @@ body {
   display: none;
   cursor: pointer;
   /*   height: 27px; */
-  margin-bottom: 40px;
+  margin-bottom: 17px;
   /*   width: 27px; */
   /*   margin: 20px; */
   margin-left: 42px;
@@ -139,7 +139,10 @@ body {
 #menu.overlay2 {
   visibility: visible;
   opacity: 1;
-  padding-top: 100px;
+  /*   padding-top: 100px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: rgba(0, 0, 0, 0.8);
 }
 #menu ul {

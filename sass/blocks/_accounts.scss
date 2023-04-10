@@ -38,18 +38,19 @@
   }
 
   &__right {
+    position: relative;
     cursor: pointer;
     img {
       width: 656px;
       height: 445px;
     }
     &::after {
-      position: relative;
-
+      content: "";
+      position: absolute;
       display: flex;
       left: 81px;
-      content: "";
-      top: -47px;
+
+      bottom: 33px;
       width: 467px;
       height: 9px;
 
